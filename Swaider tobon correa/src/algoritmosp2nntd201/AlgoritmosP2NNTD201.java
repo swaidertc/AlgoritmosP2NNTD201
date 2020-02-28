@@ -45,8 +45,12 @@ public class AlgoritmosP2NNTD201 {
         System.out.println(
                 (cantidadBlanco * puntajeBlanco) + 
                 (cantidadCorrectas * puntajeCorrectas) + 
-                (cantidadIncorrectas * puntajeIncorrectas)
+                (cantidadIncorrectas * puntajeIncorrectas)                        
         );
+        System.out.println("Total es = " + (
+                (cantidadBlanco * puntajeBlanco) + 
+                (cantidadCorrectas * puntajeCorrectas) + 
+                (cantidadIncorrectas * puntajeIncorrectas)));
     }
     
 }
